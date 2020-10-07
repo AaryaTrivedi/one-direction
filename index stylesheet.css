@@ -1,0 +1,142 @@
+.banner {
+    background:snow;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #E6E7F1;
+    height:40px
+}
+
+.topnav a {
+    display: inline;
+    color:grey;
+    text-align: center;
+    padding: 195px;
+    padding-top: 52px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 1px;
+}
+ 
+.topnav a:hover {
+    background-color:#BEBFCF;
+    color:#E6E7F1;
+}
+
+.flex-about {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: snow;
+    margin-top: 10px
+}
+
+.h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    background-color: #E6E7F1;
+    width: 100%
+}
+
+.p {
+    text-align: center;
+    color: grey;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-member1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: snow;
+    margin-top: 10px;
+}
+
+.p1 {
+    width: 50%;
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    font-size: 15px;
+}
+
+.p2 {
+    width: 50%;
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+.picture {
+    align-items: left;
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.picture2 {
+    align-items:right;
+    width: 30%;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.h2 {
+    text-align: left;
+}
+
+.flex-albums {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: snow;
+    margin-top: 10px;
+}
+
+.h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    background-color: #E6E7F1;
+    width: 100%
+}
+
+.video {
+    padding-top: 20px;
+    padding-left: 450px;
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        width: 700px;
+        padding: 150px;
+    }
+    .topnav {
+        width: 1050px;
+        padding: 0px;
+    }
+    .topnav a {
+        padding-left: 35px;
+    }
+    .flex-about {
+        width: 300%;
+    }
+    .flex-member1 {
+        width: 300%;
+    }
+    .flex-albums {
+        width: 300%;
+    }
+    .p1 {
+        padding-top: 50px; 
+    }
+    .picture {
+        padding-top: 50px;
+    }
+}
